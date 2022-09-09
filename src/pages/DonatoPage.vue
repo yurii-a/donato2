@@ -122,7 +122,7 @@
                 </a>
 
                   <n-button
-                    class="btn btn-outline btn-round btn-lg"
+                    class="btn btn-primary btn-round btn-lg"
                     :v-if="isAndroid() !==true"
                     block
                     @click="$router.push('binancepay')">
