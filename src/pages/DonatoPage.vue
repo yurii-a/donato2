@@ -53,7 +53,7 @@
           <div >
 
            <div class="col mr-auto">
-            <div class="" style="background: #D3D3D3">
+            <div class="" style="background: #333333">
               <div class="card-body">
                 <p class="card-text">Sergii S raises funds</p> 
                 <h4 class="card-title text-center">
@@ -115,15 +115,14 @@
                 <ul>
 
                   <a
-                    class="btn btn-primary btn-round btn-lg"
+                    class="btn btn-primary btn-round btn-lg btn-block"
                     :href="getAndroidLink()"
-                    block
                     :v-if="isAndroid()">
                     Pay with Binance 
                 </a>
 
                   <n-button
-                    class="btn btn-round btn-lg"
+                    class="btn btn-outline btn-round btn-lg"
                     :v-if="isAndroid() !==true"
                     block
                     @click="$router.push('binancepay')">
